@@ -1,5 +1,5 @@
 # JUEGO DE NAVES
-Esta pagina corresponde a un juego con puntaje.
+
 ## AUTORES
 Giovanni Cascardo y Maximo Ruffino
 
