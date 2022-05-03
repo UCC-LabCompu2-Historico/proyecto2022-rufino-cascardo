@@ -1,0 +1,38 @@
+body {
+    background-image: url("images/fondoinicio.jpg");
+    font-family: "Roboto Light", sans-serif;
+    min-height: 90vh;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 80px;
+    text-transform: uppercase;
+    color: #eacf0b;
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+.contenedor {
+    width: 1200px;
+    margin: auto;
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto{
+    color: aliceblue;
+    text-align: center;
+    padding: 5px 20px;
+}
+
+.contenido{
+    color: aliceblue;
+    text-align: left;
+    padding: 5px 20px;
+}
