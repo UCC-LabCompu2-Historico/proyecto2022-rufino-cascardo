@@ -1,0 +1,55 @@
+body {
+    background-image: url("images/fondoinicio.jpg");
+    font-family: "Roboto Light", sans-serif;
+    min-height: 90vh;
+}
+
+.contenedor {
+    width: 1200px;
+    margin: auto;
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 80px;
+    text-transform: uppercase;
+    color: #eacf0b;
+    border: 5px solid #141414;
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+.contenedor-botones {
+    width: 100%;
+    display: grid;
+    gap: 40px;
+}
+
+.boton {
+    display: inline-table;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 80px;
+    background: #141414;
+    color: white;
+    font-family: "Roboto Light", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: .3s ease all;
+    border-radius: 5px;
+}
+
+.boton:hover {
+    background: gray;
+}
